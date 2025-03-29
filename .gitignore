@@ -3,6 +3,10 @@
 test_cache.json
 run_test*.py
 nano_graphrag_cache*/
+siliconflow_graphrag*/
+chinese_documents_graphrag*/
+nano_graphrag_zh_embedding*/
+siliconflow_minimal_test*/
 *.txt
 examples/benchmarks/fixtures/
 tests/original_workflow.txt
@@ -181,3 +185,10 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
 
+
+# Private individual user cursor rules
+.cursor/rules/_*.mdc
+
+# Documentation and templates
+xnotes/
+docs/
